@@ -1,0 +1,83 @@
+.tools{
+    width: 100%;
+    min-height: 843px;
+    padding-top: 115px;
+    &-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-article{
+        max-width: 500px;
+        &:before{
+            content: "";
+            display: block;
+            width: 426px;
+            height: 438px;
+            position: absolute;
+            background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+            opacity: 0.1;
+            filter: blur(250px);
+            transform: rotate(5.78deg);
+        }
+        &__descr{
+            font-size: 18px;
+            margin-top: 23px;
+            line-height: 25px;
+        }
+    }
+
+    &-images{
+        position: relative;
+        max-width: 560px;
+        height: auto;
+        &__item{
+            position: absolute;
+            &-position{
+                top: 8px;
+                right: 214px;
+                border: 0.616471px solid rgba(255, 255, 255, 0.5);
+                border-radius: 14.7953px;
+                padding: 25px;
+            }
+            &-position2{
+                right: 350px;
+                top: 192px;
+            }
+            &-position3{
+               right: 36px;
+               top: 181px;
+               border: 0.616471px solid rgba(255, 255, 255, 0.5);
+               border-radius: 14.7953px;
+               padding: 25px;
+            }
+            &-position4{
+                top: 253px;
+                right: 500px;
+                border: 0.616471px solid rgba(255, 255, 255, 0.5);
+                border-radius: 14.7953px;
+                padding: 25px;
+            }
+            &-position5{
+                right: 280px;
+                top: 326px;
+                background-color: #000;
+                z-index: 1;
+                border: 0.616471px solid rgba(255, 255, 255, 0.5);
+                border-radius: 14.7953px;
+                padding: 25px;
+            }
+            &-position6{
+                right: 410px;
+                top: 400px;
+                border: 0.616471px solid rgba(255, 255, 255, 0.5);
+                border-radius: 14.7953px;
+                padding: 25px;
+            }
+            &-position7{
+                right: 0.01%;
+                top: 480px;
+            }
+            
+        }
+    }
+}

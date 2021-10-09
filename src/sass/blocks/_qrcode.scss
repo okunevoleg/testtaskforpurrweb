@@ -1,0 +1,91 @@
+.qr-code{
+    width: 100%;
+    min-height: 1260px;
+    padding-bottom: 15px;
+    &__content{
+        position: relative;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    &__link{
+        margin: 0 30px;
+        &:nth-child(2){
+            margin: 0;
+        }
+    }
+
+    &__mobile{
+        position: relative;
+
+        &-img_position1{
+            position: absolute;
+            right: 32%;
+            bottom: -300px;
+        }
+        &-img_position2{
+            position: absolute;
+            right: 400px;
+            bottom: 0;
+        }
+    }
+
+    &__scan{
+        margin-top: 150px;
+        &-block{
+            position: relative;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:before{
+                content: "";
+                position: absolute;
+                width: 955px;
+                height: 955px;
+                left: 18%;
+                background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+                opacity: 0.15;
+                filter: blur(311.569px);
+                border-radius: 476.034px;
+                transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+            }
+        }
+
+        &-arrow{
+            margin-left: 50px;
+            &_img{
+                margin-bottom: 5px;
+            }
+        }
+
+    }
+    
+}
+
+.preview{
+    display: flex;
+    width: 100%;
+    min-height: 606px;
+    &-first__bg{
+        position: relative;
+        width: 50%;
+        height: 606px;
+        background: url('../img/dj.png') center center / cover no-repeat;
+        &-title{
+           position: absolute;
+           left: 140px;
+           bottom: 0;
+        }
+    }
+    &-second__bg{
+        width: 50%;
+        height: 606px;
+        background: url('../img/ed.png') center center / cover no-repeat;
+    }
+}

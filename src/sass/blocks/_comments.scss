@@ -1,0 +1,25 @@
+.comments{
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: repeat(2, 503px);
+    gap: 80px;
+    justify-content: space-around;
+    &-article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 60px;
+
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 21.3671px;
+        &__descr{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 40px;
+            color: $mainColor;
+            &__contant{
+                font-size: 24px;
+            }
+        }
+    }
+}

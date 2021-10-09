@@ -1,0 +1,369 @@
+@media (max-width: 1160px) {
+    .intro-footer__img{
+        width: 120px;
+        height: auto;
+        margin: 0;
+    }
+    
+    .comments{
+        grid-template-columns: repeat(2,320px);
+        justify-content: center;
+        gap: 80px;
+        &-article__descr{
+            font-size: 18px;
+        }
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    // upgrade 
+
+    .upgrade__img{
+        width: 240px;
+    }
+
+    //scanner 
+
+    .scanner-image__item{
+        width: 22%;
+    }
+
+    // tools
+
+    .tools-wrapper{
+        display: block;
+    }
+
+    .tools-images{
+        margin-left: 250px;
+    }
+
+    // qr 
+
+    .qr-code{
+        &__content{
+            display: block;
+        }
+
+        &__mobile{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-img_position1{
+                display: block;
+                position: static;
+            }
+            &-img_position2{
+                margin-top: 20px;
+                position: static;
+            }
+        }
+
+    }
+
+    // order
+
+    .order-image{
+        max-width: 640px;
+        &__item{
+            width: 100%;
+            height: auto;
+        }
+
+        &__descr{
+            max-width: 150px;
+            font-size: 12px;
+        }
+
+        &__position1{
+            top: 200px;
+        }
+
+        &__position2{
+            top: 200px;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    // form
+
+    .feedback-form__input{
+        width: 620px;
+    }
+
+    .feedback-form__venue{
+        display: block;
+        width: 620px;
+    }
+
+    .feedback-form__textarea{
+        width: 620px;
+    }
+}
+
+@media (max-width: 768px){
+    // header
+
+    .header-begin{
+        display: block;
+        text-align: center;
+        &__login{
+            margin: 0 auto;
+        }
+    }
+
+    //intro 
+
+    .intro{
+        text-align: center;
+        &-wrapper{
+            display: block;
+        }
+        .line-block{
+            display: none;
+        }
+
+        &-descr__text{
+            margin: 0 auto;
+        }
+
+        &-linear{
+            margin: 0;
+        }
+
+        &__img{
+            margin-top: 30px;
+            width: 280px;
+        }
+
+        &-footer{
+            display: block;
+            &__platform{
+                margin: 0;
+            }
+
+            &__link{
+                display: block;
+                margin: 0;
+                margin: 20px 0;
+            }
+
+            &__img{
+                width: 220px;
+            }
+        }
+
+    }
+
+    // comments
+
+    .comments{
+        margin-top: 80px;
+        grid-template-columns: repeat(1, 280px);
+        &-article{
+            padding: 30px;
+        }
+    }
+
+    .title_max{
+        line-height: 40px;
+    }
+
+    //upgrade 
+
+    .upgrade{
+        margin-top: 80px;
+        min-height: 760px;
+        display: block;
+        text-align: center;
+        &__img{
+            transform: none;
+        }
+
+        &-article{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    // scanner
+
+    .scanner{
+        min-height: 1150px;
+        &-image{
+            position: static;
+            &__item{
+                display: block;
+                width: 50%;
+                margin: 50px auto;
+
+            }
+        }
+        &-wrapper{
+            display: block;
+        }
+
+        &-article{
+            float: none;
+        }
+    }
+
+    // qr 
+
+    .qr-code{
+        .preview{
+            flex-direction: column;
+            &-first__bg{
+                width: 100%;
+                order: 2;
+                &-title{
+                    display: none;
+                }
+            }
+            &-second__bg{
+                width: 100%;
+                order: 1;
+            }
+        }
+
+        &__descr{
+            text-align: center;
+        }
+
+        &__img{
+            width: 130px;
+        }
+
+        &__text-image{
+            display: flex;
+            justify-content: center;
+        }
+        &__link{
+            display: block;
+        }
+
+
+    }
+
+    .qr-code__mobile-img_position1{
+        width: 250px;
+    }
+    .qr-code__mobile-img_position2{
+        width: 250px;
+    }
+
+    .qr-code__scan-img{
+        width: 180px;
+    }
+
+    .qr-code__scan-arrow{
+        margin-left: 20px;
+        &_img{
+            width: 80px;
+        }
+    }
+
+    // generate
+
+    .generate-qr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qr-code__scan{
+        order: 2;
+    }
+
+    .generate{
+        order: 1;
+        &-title{
+            display: block;
+        }
+    }
+
+    // order 
+
+    .order{
+        margin-top: 40px;
+
+        &-title{
+            margin-bottom: 88px;
+        }
+
+        &-image{
+            margin-top: 120px;
+        }
+
+        &-image__descr{
+            padding: 13px;
+        }
+
+        .order-image__position1{
+            top: 300px;
+            right: -15px;
+        }
+
+        .order-image__position2{
+
+        }
+
+        .order-image__position3{
+            bottom: 0px;
+        }
+
+        .order-image__position4{
+            bottom: 30px;
+            left: 0px;
+            width: 100px;
+        }
+    }
+
+    // notab
+
+    .notab{
+        display: none;
+    }
+
+    // form
+
+    .feedback-form__venue{
+        width: 300px;
+    }
+
+    .feedback-form__input{
+        width: 300px;
+    }
+
+    .feedback-form__textarea{
+        width: 300px;
+    }
+
+    .feedback-form__btn{
+        width: 300px;
+    }
+
+
+    // foter 
+
+    .footer{
+        &-contacts{
+            margin-top: 80px;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__block{
+                margin-top: 30px;
+                order: 2;
+                &:nth-child(2){
+                    order: 1;
+                }
+            }
+        }
+    }
+}

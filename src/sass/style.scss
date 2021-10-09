@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Montserrat:wght@700&family=Noto+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+@import 'libs/bootstrap-reboot.min';
+@import 'base/mixins';
+@import 'base/variables';
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: $mainColor;
+}
+
+a{
+    color: $mainColor;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+}
+
+button{
+    outline: none;
+    background: none;
+    border: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+main{
+    position: relative;
+}
+
+.content-wrapper{
+    padding: 25px 0px;
+}
+
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.container{
+    max-width: 1690px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/intro';
+@import 'blocks/push';
+@import 'blocks/comments';
+@import 'blocks/upgrade';
+@import 'blocks/scanner';
+@import 'blocks/tools';
+@import 'blocks/qrcode';
+@import 'blocks/generate';
+@import 'blocks/notab';
+@import 'blocks/form';
+@import 'blocks/footer';
+@import 'blocks/media';
